@@ -1,0 +1,32 @@
+.sun {
+    width: min(80vh, 80vw, 300px);
+    border-radius: 50% ;
+    background-color: #efb54a;
+    position: absolute;
+    aspect-ratio: 1/1;
+    left: 300px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sun::before {
+    content: '';
+    position: absolute;
+    width: max(200px, 5vw, 5vh);
+    height: max(1vh, 1vw, 20px);
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    background-color: #efb54a;
+}
+
+.sun::after {
+    content: '';
+    position: absolute;
+    width: max(200px, 5vw, 5vh);
+    height: max(1vh, 1vw, 20px);
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    background-color: #efb54a;
+}

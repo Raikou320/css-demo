@@ -1,13 +1,8 @@
-body {
-    background-color: #efb54a;
-}
-
 .leaf {
     width: min(80vw, 80vh, 300px);
-    position: absolute;
-    top: 50%;
+    position: relative;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
     aspect-ratio: 13/12;
     border-radius: 5% 35% 0 50%;
     z-index: 1;
